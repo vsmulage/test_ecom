@@ -1,0 +1,140 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+  }
+  
+  .container {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  nav {
+    background-color: #007bff;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .nav li {
+    margin: 0;
+  }
+  
+  .nav-link {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .nav-link:hover {
+    text-decoration: underline;
+  }
+  
+  .content {
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  
+  .products, .cart {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .product, .cart-item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    width: 200px;
+    text-align: center;
+  }
+  
+  .product img, .cart-item img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .cart-summary {
+    margin-top: 20px;
+    font-weight: bold;
+  }
+/* Carousel styling */
+.carousel {
+    display: flex;
+    overflow: hidden;
+    border-radius: 8px;
+    margin: 20px 0;
+    position: relative;
+    background-color: #f9f9f9;
+  }
+  
+  .carousel-item {
+    flex: 0 0 100%;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .carousel img {
+    max-width: 150px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .carousel h3 {
+    margin: 10px 0;
+    font-size: 18px;
+  }
+  
+  .carousel p {
+    margin: 5px 0;
+  }
+  
+  .carousel-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    z-index: 10;
+  }
+  
+  .carousel-button.left {
+    left: 10px;
+  }
+  
+  .carousel-button.right {
+    right: 10px;
+  }
+  
+  .carousel .active {
+    display: block;
+  }
+    
