@@ -97,6 +97,7 @@ body {
     flex: 0 0 100%;
     text-align: center;
     padding: 20px;
+    display: none;
   }
   
   .carousel img {
